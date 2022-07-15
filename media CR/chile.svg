@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="15px" viewBox="0 0 23 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 44</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-959.000000, -4111.000000)">
+        <g id="Group-44" transform="translate(959.000000, 4111.000000)">
+            <g id="Group-43-Copy">
+                <rect id="Rectangle-34" fill="#0039A6" x="0" y="0" width="8" height="8"></rect>
+                <rect id="Rectangle-34-Copy" fill="#FFFFFF" x="8" y="0" width="15" height="8"></rect>
+                <rect id="Rectangle-34-Copy-2" fill="#D52B1E" x="0" y="7" width="23" height="8"></rect>
+            </g>
+            <polygon id="Star" fill="#FFFFFF" points="4 5 2.8244295 5.61803399 3.04894348 4.30901699 2.09788697 3.38196601 3.41221475 3.19098301 4 2 4.58778525 3.19098301 5.90211303 3.38196601 4.95105652 4.30901699 5.1755705 5.61803399"></polygon>
+        </g>
+    </g>
+</svg>
