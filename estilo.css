@@ -1,11 +1,10 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     font-family: 'Dosis', sans-serif;
-    
 }
 
-header .container{
+header .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -16,7 +15,7 @@ header .container{
     margin-right: 15px;
 }
 
-nav li{
+nav li {
     list-style: none;
     float: left;
     margin: 20px;
@@ -25,17 +24,13 @@ nav li{
 
 }
 
-nav li:hover{
+nav li:hover {
     color: rgb(97, 95, 95);
     cursor: pointer;
 }
-
-
-
-nav li:nth-child(6){
+nav li:nth-child(6) {
     margin-top: -0.025px;
 }
-
 nav li button{
     background-color: rgb(65, 91, 207);
     border: none;
@@ -43,15 +38,13 @@ nav li button{
     font-weight: bold;
     color: white;
     padding: 17px 25px;
-    }
-
-nav li button:hover{
+}
+nav li button:hover {
     cursor: pointer;
     background-color: rgb(31, 62, 201);
     text-decoration: underline;
 }
-
-#section1 button{
+#section1 button {
     background-color: rgb(60, 88, 211);
     border: none;
     border-radius: 8px;
@@ -60,42 +53,35 @@ nav li button:hover{
     padding: 13px 23px;
     margin-top: 40px;
 }
- 
-#section1 button:hover{
+#section1 button:hover {
     cursor: pointer;
     background-color: rgb(56, 80, 202);
 }
-
-#section1 .container{
+#section1 .container {
     display: flex;
     flex-direction: row;
     margin-left: 15px;
     margin-right: 15px;
 }
-
-#section1 img{
+#section1 img {
     width: 52vw;
 }
-
-#section1 .texto{
+#section1 .texto {
     font-size: 30px;
     margin-left: 100px;
 }
-
-#section1 .texto h1{
+#section1 .texto h1 {
     font-size: 60px;
     font-weight: 10;
     line-height: 1.1;
     
 }
-
-#section1 .texto p{
+#section1 .texto p {
     margin-top: 60px;
     font-size: 22px;
     line-height: 1.5;
 }
-
-#section2 .container{
+#section2 .container {
     background-color: rgb(245, 245, 245);
     display: flex;
     flex-direction: column;
@@ -103,151 +89,119 @@ nav li button:hover{
     width: 100%;
     
 }
-
-#section2 .texto{
+#section2 .texto {
     text-align: center;
     margin-top: 85px;
     font-size: 22px;
     line-height: 2;
     margin-bottom: 10px;
 }
-
-
-
-#section2 img{
+#section2 img {
     width:150px;
     height: 150px;
 }
-
-#section2 .img-container{
+#section2 .img-container {
     display: block;
     text-align: center;
     margin-bottom: 90px;
-
-    
 }
-#section3{
+#section3 {
     background-image: url("https://www.cuadernorojo.com.ar/assets/landing_home/bg_home_1-8e439eb8074fccd2dfe133ccb51aeac1.svg");
     background-repeat: no-repeat;
     background-position: 215% 170%;
 }
-#section3 .container{
+#section3 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
-   
-    
-
 }
-
-#section3 .texto{
+#section3 .texto {
     display: block;
     line-height: 2.5;
     margin-left: 45px;
     margin-top: 100px;
     max-width: 45%;
 }
-
-#section3 h1{
+#section3 h1 {
     text-align: center;
     line-height: 1.5;
     font-size: 40px;
     margin-top: 20px;
-    
+    font-size: 30px;   
 }
-
-#section3 h3{
+#section3 h3 {
     color:#3E7FE9;
-
 }
-#section3 p{
-    line-height: 1.5;
+#section3 p {
+    line-height: 1;
 }
-
-#section3 img{
+#section3 img {
     width: 40vw;
     margin-top: 190px;
     margin-right: 100px;
 }
 
-#section3 .parrafos{
+#section3 .parrafos {
     padding: 20px;
-
 }
-
-#section4{
+#section4 {
     background-color:rgb(245, 245, 245);
     background-image: url("media CR/figura4.svg");
     background-repeat: no-repeat;
     background-position: -165% 2%;
-
 }
-
 #section4 .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-
 }
-#section4 .texto{
+#section4 .texto {
     width: 100%;
     margin: auto;
     margin-right: 120px;
     margin-left: 30px;
-
 }
-#section4 .texto h2{
+#section4 .texto h2 {
     text-align: center;
     font-size: 32px;
-    line-height:1.3;
-    
+    line-height:1.3;   
 }
-
-#section4 .texto p{
+#section4 .texto p {
     margin-top: 20px;
     line-height: 1.5;
 }
-
-#section4 img{
+#section4 img {
     width: 40%;
     margin-left: 150px;
     margin-top: 50px;
-
 }
-
-#section5{
+#section5 {
     background-image: url("media CR/figura4.svg");
     background-repeat: no-repeat;
     background-position: -165% 200%;
 }
-#section5 .container{
+#section5 .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;  
 }
-
-#section5 .container h1{
+#section5 .container h1 {
     text-align: center;
     font-size: 35px;
     margin-top: 60px;
 }
-
-#section5 img{
+#section5 img {
     width: 12vw;
 }
-
-#section5 .beneficios{
+#section5 .beneficios {
     display: flex;
     flex-direction: row;
     margin-top: -50px;
-    
 }
-
-#section5 .card{
+#section5 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -256,43 +210,33 @@ nav li button:hover{
     margin-top: 75px;
     line-height: 1.3;
 }
-
-
-#section5 .card h3{
+#section5 .card h3 {
     color: #3E7FE9;
     margin-bottom: 10px;
 }
-
-#section5 .card p{
+#section5 .card p {
     margin:0;
 }
-
-#section5 .card:first-child{
+#section5 .card:first-child {
     margin-left: 150px;
 }
-
-#section .card:nth-child(3){
+#section .card:nth-child(3) {
     margin-right: 150px;
 }
-
-
-#section5 .prueba{
+#section5 .prueba {
     text-align: center;
     width: 70%;
     margin-bottom: 40px;
 }
-
-#section5 .prueba h1{
+#section5 .prueba h1 {
     color:#3541E8;
     font-size: 35px;
     margin-bottom: 30px;
 }
-
-#section5 .prueba p{
+#section5 .prueba p {
     line-height: 1.3;
 }
-
-#section5 button{
+#section5 button {
     background-color: #3541E8;
     border: none;
     border-radius: 5px;
@@ -302,63 +246,47 @@ nav li button:hover{
     margin-top: 20px;
     font-size: 15px;
 }
-
- 
-#section5 button:hover{
+#section5 button:hover {
     cursor: pointer;
     background-color: #2a36da;
 }
-
-footer .container{
+footer .container {
     background-color: #212529;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
 }
-
- footer .list-container{
+ footer .list-container {
     display: flex;
     margin: 70px;
  }
-
-footer .listas{
+footer .listas {
     color: white;
     line-height: 1.7;
     margin: 25px;
-    font-size: 15px;
-   
+    font-size: 15px;  
 }
-
-footer .listas:nth-child(4){
+footer .listas:nth-child(4) {
     line-height: 2;
-
 }
-
-footer .listas:nth-child(4) img{
-    width: 20px;
-    
+footer .listas:nth-child(4) img {
+    width: 20px;   
 }
-
-footer li{
+footer li {
     list-style: none;
 }
-
-footer li:hover{
+footer li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
-
-footer img{
+footer img {
     width: 150px;   
 }
-
-footer .img-container{
+footer .img-container {
     margin-bottom: 150px;
 }
-
-footer button{
+footer button {
     background-color: #E04032;
     border: none;
     border-radius: 5px;
@@ -367,183 +295,131 @@ footer button{
     font-size: 15px;
     margin-top: 5px;
 }
-
-footer button:hover{
+footer button:hover {
     cursor: pointer;
 }
 
-
-
-
-
-
-
-@media (max-width:768px){
-
-
-
+@media (max-width:768px) {
     header .container{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: -45px;
         margin-left: -45px;
-
     }
-
-    nav{
+    nav {
         margin-top: -5px;
     }
-
-    nav li{
+    nav li {
         float:initial;
         margin-left: -15px;
         margin-top: 15px;
     }
-
-    #section1 .container{
+    #section1 .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: -50px;
     }
-
-    #section1 img{
-        width: 100%;
-
+    #section1 img {
+        width: 75vw;
     }
-
-    #section1 .texto{
+    #section1 .texto {
         margin-left: 20px;
     }
-    #section1 .texto h1{
+    #section1 .texto h1 {
         font-size: 40px;
     }
-
     #section2 .texto{
         line-height: 1.2;
     }
-
-    #section2 .texto p{
+    #section2 .texto p {
         margin-top: 25px;
         line-height: 1.5;
     }
-
-
-    #section3{
+    #section3 {
         background-image: none;
-        
     }
-
-    #section3 .container{
+    #section3 .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-top: -100px;
         
     }
-
-
-    #section3 img{
+    #section3 img {
         width: 100%;
-        margin-top: -1px;
-        
+        margin-top: -1px;   
     }
-
-    #section3 .texto{
+    #section3 .texto {
         line-height: 2;
         margin-top: 100px;
         max-width: 100%;
-        margin-left: 0;
-        
+        margin-left: 0;   
     }
-
-    #section3 h1{
+    #section3 h1 {
         font-size: 30px;
     }
-    
-    #section3 h3{
+    #section3 h3 {
         font-size: 20px;
         line-height: 1.5;
         margin-bottom: 5px;
-        }
-
-    #section4 .container{
+    }
+    #section4 .container {
         display: flex;
         flex-direction: column-reverse;
-        
-
     }
-
-    #section4 img{
+    #section4 img {
         width: 100%;
         margin: auto;
         margin-top: 20px;
     }
-
-    #section4 .texto{
+    #section4 .texto {
         width: 100%;
         margin: auto;
         margin-top: 40px;
         padding: 10px;
     }
-
-
-    #section5{
+    #section5 {
         background-image: none;
     }
-
-    #section5 img{
+    #section5 img {
         width: 40vw;
     }
-
     #section5 .beneficios {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-left: 40px;
-        margin-right: 40px;
-        
+        margin-right: 40px;   
     }
-
-    #section5 .card p{
+    #section5 .card p {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
-
-    #section5 .card:first-child{
+    #section5 .card:first-child {
         margin-right: 150px;
         width: 80%;
     }
-
-    #section5 .card:nth-child(2){
-        margin-top: -10px; 
+    #section5 .card:nth-child(2) {
+        margin-top: -10px;
     }
-    
-    #section5 .card:nth-child(3){
+    #section5 .card:nth-child(3) {
         margin-top: -30px;
     }
-
-    #section5 .prueba{
+    #section5 .prueba {
         min-width: 90%;
     }
-
-    footer .container{
+    footer .container {
         flex-direction: column-reverse;
         align-items: center;
     }
-
-
-    footer .list-container{
+    footer .list-container {
         flex-direction: column;
     }
-
-    footer .img-container{
+    footer .img-container {
         margin-bottom: 0;
         margin-top: 40px;
     }
-
-
 }
