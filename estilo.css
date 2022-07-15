@@ -105,21 +105,18 @@ nav li button:hover {
     text-align: center;
     margin-bottom: 90px;
 }
-#section3{
+#section3 {
     background-image: url("https://www.cuadernorojo.com.ar/assets/landing_home/bg_home_1-8e439eb8074fccd2dfe133ccb51aeac1.svg");
     background-repeat: no-repeat;
     background-position: 215% 170%;
 }
-#section3 .container{
+#section3 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 50px;
-   
-    
-
 }
 #section3 .texto {
     display: block;
@@ -143,15 +140,14 @@ nav li button:hover {
 #section3 p {
     line-height: 1;
 }
-#section3 img{
+#section3 img {
     width: 40vw;
     margin-top: 190px;
     margin-right: 100px;
 }
 
-#section3 .parrafos{
+#section3 .parrafos {
     padding: 20px;
-
 }
 
 @media (max-width:768px) {
@@ -185,55 +181,39 @@ nav li button:hover {
     #section1 .texto h1 {
         font-size: 40px;
     }
-
     #section2 .texto{
         line-height: 1.2;
     }
-
-    #section2 .texto p{
+    #section2 .texto p {
         margin-top: 25px;
         line-height: 1.5;
     }
-
-
-    #section3{
+    #section3 {
         background-image: none;
-        
     }
-
-    #section3 .container{
+    #section3 .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin-right: ;
-        margin-top: -100px;
-        
+        margin-top: -100px;  
     }
-
-
-    #section3 img{
+    #section3 img {
         width: 100%;
-        margin-top: -1px;
-        
+        margin-top: -1px;   
     }
-
-    #section3 .texto{
+    #section3 .texto {
         line-height: 2;
         margin-top: 100px;
         max-width: 100%;
-        margin-left: 0;
-        
+        margin-left: 0;   
     }
-
-    #section3 h1{
+    #section3 h1 {
         font-size: 30px;
     }
-    
-    #section3 h3{
+    #section3 h3 {
         font-size: 20px;
         line-height: 1.5;
         margin-bottom: 5px;
-        }
-
-        
+        } 
 }
