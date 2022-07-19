@@ -178,6 +178,78 @@ nav li button:hover {
     margin-left: 150px;
     margin-top: 50px;
 }
+#section5 {
+    background-image: url("media CR/figura4.svg");
+    background-repeat: no-repeat;
+    background-position: -165% 200%;
+}
+#section5 .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+#section5 .container h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 60px;
+}
+#section5 img {
+    width: 12vw;
+}
+#section5 .beneficios {
+    display: flex;
+    flex-direction: row;
+    margin-top: -50px;
+}
+#section5 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 35px;
+    margin-top: 75px;
+    line-height: 1.3;
+}
+#section5 .card h3 {
+    color: #3E7FE9;
+    margin-bottom: 10px;
+}
+#section5 .card p {
+    margin:0;
+}
+#section5 .card:first-child {
+    margin-left: 150px;
+}
+#section .card:nth-child(3) {
+    margin-right: 150px;
+}
+#section5 .prueba {
+    text-align: center;
+    width: 70%;
+    margin-bottom: 40px;
+}
+#section5 .prueba h1 {
+    color:#3541E8;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+#section5 .prueba p {
+    line-height: 1.3;
+}
+#section5 button {
+    background-color: #3541E8;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    padding: 13px 23px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+#section5 button:hover {
+    cursor: pointer;
+    background-color: #2a36da;
+}
 @media (max-width:768px) {
     header .container {
         display: flex;
@@ -258,5 +330,36 @@ nav li button:hover {
         margin: auto;
         margin-top: 40px;
         padding: 10px;
-    }     
+    }
+    #section5 {
+        background-image: none;
+    }
+    #section5 img {
+        width: 40vw;
+    }
+    #section5 .beneficios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-right: 40px;   
+    }
+    #section5 .card p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #section5 .card:first-child {
+        margin-right: 150px;
+        width: 80%;
+    }
+    #section5 .card:nth-child(2) {
+        margin-top: -10px;
+    }
+    #section5 .card:nth-child(3) {
+        margin-top: -30px;
+    }
+    #section5 .prueba {
+        min-width: 90%;
+    }
 }
