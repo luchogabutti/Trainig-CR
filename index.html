@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div class="container">
             <div class="logo">
-                <img src="media CR/logoposta.jpg" alt="">
+                <img src="media CR/logoposta.jpg">
             </div>
             <nav>
                 <ul>
@@ -22,7 +22,7 @@
                     <li>Libro de clases digital</li>
                     <li>Blog</li>
                     <li>Ingresar</li>
-                    <li><button>Agendar una demo</button></li>
+                    <li><button class="boton">Agendar una demo</button></li>
                 </ul>
             </nav>
         </div>
@@ -33,12 +33,14 @@
             <div class="texto">
                 <h1>Tus familias y educadores, más involucrados</h1>
                 <p>Cuaderno Rojo es la plataforma que organiza toda la información de tu centro infantil en un solo lugar. Genera comunicaciones que facilitan el proceso educativo y elimina los grupos de WhatsApp.</p>
-                <button>Agendar una demo</button>
+                <button class="boton">Agendar una demo</button>
             </div>
             <div class="imagen">
-                <img src="https://www.cuadernorojo.com.ar/assets/landing_home/cr-01-91518073c36858075dae2580ba143d56.png" alt="">
+                <img src="https://www.cuadernorojo.com.ar/assets/landing_home/cr-01-91518073c36858075dae2580ba143d56.png" class="section1-img">
             </div>
         </div>
+
+       
     </section>
 
     <section id="section2">
@@ -121,7 +123,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="footer">
         <div class="container">
             <div class="list-container">
                 <div class="listas">
@@ -160,7 +162,30 @@
                     <img src="https://www.cuadernorojo.com.ar/assets/white-letter-logo-f26a773d4109874ad191cea68aae7752.png" alt="">
                 </div>
         </div>
+        <div class="modal-container">
+            <div class="modal">
+                <h2>Cuentanos sobre tu centro</h2>
+                <div class="modal-contenedor">
+                    <div class="modal-text">
+                        <p>"Hoy la aplicación nos permite seguir operando de forma digital y simple."</p>
+                        <img class="modal-img" src="media CR/luchito.jpg">
+                        <h4>Luchito Gabutti</h4>
+                        <p>Nueve Goleador</p>
+                    </div>
+                    <div class="input-text">
+                        <input type="text" placeholder="Tu nombre">
+                        <input type="select" placeholder="Tu rol">
+                        <input type="text" placeholder="Nombre del centro">
+                        <input type="text" placeholder="Whatsapp de contacto">
+                        <input type="email" placeholder="Email de contacto">
+                        <input type="select" placeholder="Cantidad de alumnos">
+                        <input type="submit" value="Agendar">
+                    </div>
+                </div>
+            </div>
+    </div>
     </footer>
 
+    <script src="codigo.js"></script>
 </body>
 </html>
